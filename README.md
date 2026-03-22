@@ -31,6 +31,13 @@ A real-time terminal dashboard for monitoring [NATS](https://nats.io) servers.
 
 ## Installation
 
+### Homebrew (macOS & Linux)
+
+```bash
+brew tap ahmedraad/tap
+brew install nats-cli-monitor
+```
+
 ### From source
 
 Requires [Rust](https://rustup.rs) 1.85+ (edition 2024).

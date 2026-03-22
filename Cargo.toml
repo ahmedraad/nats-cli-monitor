@@ -1,0 +1,19 @@
+[package]
+name = "nats-cli-monitor"
+version = "0.1.0"
+edition = "2024"
+description = "A real-time terminal dashboard for monitoring NATS servers"
+license = "MIT"
+repository = "https://github.com/ahmedraad/nats-cli-monitor"
+readme = "README.md"
+keywords = ["nats", "monitoring", "tui", "cli", "jetstream"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+ureq = { version = "3", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+clap = { version = "4", features = ["derive"] }
+ratatui = "0.29"
+crossterm = "0.28"
+anyhow = "1"
